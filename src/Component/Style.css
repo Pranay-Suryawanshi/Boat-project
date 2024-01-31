@@ -1,0 +1,43 @@
+.abc{
+    background-image:linear-gradient(#edfefe, #eeffff);
+}
+
+.card{
+    width: 100%;
+    height: 85%;
+}
+
+.card-img-top{
+    height: 70%;
+}
+.abd{
+    background-image: linear-gradient(#ffffff, #fff1d6);
+}
+
+.btn-second {
+    
+    width: 75%!important;
+    border: 1px solid white;
+    bottom: 175px !important;
+    position: absolute;
+    margin: -50px;
+    left: 28% !important;
+    border-radius: 10px!important;
+    padding: 3px 6px!important;
+    font-size: 12px;
+    font-weight: 700;
+    background: #fcc50b;
+    color: #000;
+    letter-spacing: -0.48px;
+}
+
+@media only screen and (max-width: 768px){
+.card {
+    height: unset;
+
+
+}
+.btn-second{
+    margin: -45px 5px 9px 60px;
+}
+}
