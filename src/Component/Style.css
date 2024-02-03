@@ -1,19 +1,53 @@
+body{
+    
+}
 .abc{
-    background-image:linear-gradient(#edfefe, #eeffff);
+    background-image:linear-gradient(#edfefe, #ffffff);
+}
+p{
+font-size: 80px;
+
 }
 
+p strong{
+    font-size: 84px;
+    font-weight:bold;
+}
 .card{
-    width: 100%;
+    position: relative;
+    width: 99%;
     height: 85%;
+}
+
+.card .off{
+font-size: 12px;
+font-weight: bold;
+color: #12b985;
 }
 
 .card-img-top{
     height: 70%;
 }
+
 .abd{
-    background-image: linear-gradient(#ffffff, #fff1d6);
+    background-image: linear-gradient(#ffffff, #f7edda,#ffffff);
+}
+.pt-4{
+    padding-top: 100px!important;
+
 }
 
+.head{
+background-image: linear-gradient(#ffffff, #f2edff);
+}
+.bands{
+font-size: 84 ;
+}
+.line-through{
+    text-decoration: line-through;
+    font-size: 12px;
+    color: #b2b9bf;
+}
 .btn-second {
     
     width: 75%!important;
@@ -31,6 +65,8 @@
     letter-spacing: -0.48px;
 }
 
+
+
 @media only screen and (max-width: 768px){
 .card {
     height: unset;
@@ -38,6 +74,8 @@
 
 }
 .btn-second{
-    margin: -45px 5px 9px 60px;
+    left: 50px !important;
+    margin: -60px 0px;
 }
+
 }

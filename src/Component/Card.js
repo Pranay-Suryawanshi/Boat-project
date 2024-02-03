@@ -1,112 +1,118 @@
 import React from 'react'
 
-import boat1 from '../image/boat1.webp'
-import boat2 from '../image/boat131.webp'
-import boat3 from '../image/boAt-181.webp'
-import boat4 from '../image/boat-161.webp'
-import boat5 from '../image/boat-115.webp'
+import mob from '../image/mob.webp'
+import mob1 from '../image/mob1.webp'
+import mob2 from '../image/mob2.webp'
+import mob3 from '../image/mob3 webp.webp'
+import mob4 from '../image/mob4.webp'
 export default function Card(props) {
   return (
     <div>
-        <section class="abd">
-            <div class="container-fluid ">
-              <div class=" d-flex flex-wrap">
-                <div class="img-fluid col-sm-6 p-5">
-                  <p class="display-1">
-                    True Wireless
-                  <br/>
-                  <span>
-                    <strong>Earbuds</strong>
-                  </span>
-                  </p>
-                  <p class="sub_heading">
-                    <h2>
-                      Starting from ₹999*
-                     </h2>
+      <section className="abd">
+        <div className="container  col-ms-6 ">
+          <div className=" d-flex flex-wrap">
 
-                  </p>
-                </div>
-
-                <div class="col-sm-6">
-                <img src={boat1} height={"500px"} class="img-fluid"/>
-               </div>
-                
-              </div>
-              
-
+            <div className="col-lg-7">
+              <img src={mob} className="img-fluid " style={{ height: "700px", width: "700px" }} />
             </div>
-            
-          
 
-          <div>
-        <h3 class="px-5">
+            <div className="col-lg-5 pt-4">
+              <p className="pt-5 d-flex justify-content-end pt-4">
+              Smart
+              <span>
+              <strong >Watches</strong>
+              </span>
+              </p>
+              <p className="d-flex justify-content-end">
+                <h2>
+                  Starting from ₹999*
+                </h2>
+
+              </p>
+              <span className='d-flex justify-content-end'>
+              <button className="bg-dark text-white py-1 mx-1 col-3 rounded-3"> Shop Products</button>
+              </span>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+        <div>
+          <h3 className="px-5">
             {props.best}
             <strong>{props.seller}</strong>
-        </h3>
-        
-        <div class="container-fludi mx-5">
-          <div class="row">
-            <div class="col-sm-3">
-              <div class="card ">
-                <img src={boat2} class="card-img-top" alt="..."/>
-                <button class="btn-second">60 Hours Playback</button>
-                <div class="card-body">
-                  <b class="card-title">Airdopes 131</b>
-                  <h6 class="card-title "><b>₹899</b>&nbsp;
-                  <small class="text-body-secondary">₹2999</small>
+          </h3>
+
+          <div className="container-fludi mx-5">
+          <div className="row">
+            <div className="col-lg-3 col-sm-6">
+              <div className="card ">
+                <img src={mob1} className="card-img-top" alt="..."/>
+                <button className="btn-second">Activity Tracker</button>
+                <div className="card-body">
+                  <b className="card-title">Storm</b>
+                  <h6 className="card-title "><b>₹1,499</b>&nbsp;
+                  <small className="text-body-secondary line-through">₹5990</small>
+                  <span class="off m-0 pr-2"> 75% off</span>
                   </h6>
-                  <p class="card-text"></p>
-                  <a href="#" class="btn btn-primary bg-dark rounded-3 col-12">Add to Cart</a>
+                  <p className="card-text"></p>
+                  <a href="#" className="btn btn-primary bg-dark rounded-3 col-12">Add to Cart</a>
                 </div>
               </div>
 
             </div>
             
-            <div class="col-sm-3">
-              <div class="card">
-                <img src={boat3}class="card-img-top" alt="..."/>
-                <button class="btn-second">20 Hours Playback</button>
-                <div class="card-body">
-                <b class="card-title">Airdopes 181</b>
-                  <h6 class="card-title"><b>₹1,099</b>&nbsp;
-                  <small class="text-body-secondary">₹2990</small>
+            <div className="col-lg-3 col-sm-6">
+              <div className="card">
+                <img src={mob2}className="card-img-top" alt="..."/>
+                <button className="btn-second">BT Calling</button>
+                <div className="card-body">
+                <b className="card-title">Wave Call</b>
+                  <h6 className="card-title"><b>₹1,699</b>&nbsp;
+                  <small className="text-body-secondary line-through">₹7,990</small>
+                  <span class="off m-0 pr-2"> 79% off</span>                  
                   </h6>
-                  <p class="card-text"></p>
-                  <a href="#" class="btn btn-primary bg-dark rounded-3 col-12">Add To Cart</a>
-                </div>
-              </div>
-
-            </div>
-            
-            
-            <div class="col-sm-3">
-              <div class="card" >
-                <img src={boat4} class="card-img-top" alt="..."/>
-                <button class="btn-second">40 Hours Playback</button>
-                <div class="card-body">
-                <b class="card-title">Airdopes 161</b>
-                  <h6 class="card-title"><b>₹999</b>&nbsp;
-                  <small class="text-body-secondary">₹2490</small>
-                  </h6>
-                  <p class="card-text"></p>
-                  <a href="#" class="btn btn-primary bg-dark rounded-3 col-12">Add To Cart</a>
+                  <p className="card-text"></p>
+                  <a href="#" className="btn btn-primary bg-dark rounded-3 col-12">Add To Cart</a>
                 </div>
               </div>
 
             </div>
             
             
-            <div class=" col-sm-3">
-              <div class="card">
-                <img src={boat5} class="card-img-top" alt="..."/>
-                <button class="btn-second">Clear Calling</button>
-                <div class="card-body">
-                <b class="card-title">Airdopes 115</b>
-                  <h6 class="card-title"><b>₹1,299</b>&nbsp;
-                  <small class="text-body-secondary">₹2990</small>
+            <div className="col-lg-3 col-sm-6">
+              <div className="card" >
+                <img src={mob3} className="card-img-top" alt="..."/>
+                <button className="btn-second">Alexa Enabled</button>
+                <div className="card-body">
+                <b className="card-title">Xtend</b>
+                  <h6 className="card-title"><b>₹1,899</b>&nbsp;
+                  <small className="text-body-secondary line-through">₹2990</small>
+                  <span class="off m-0 pr-2"> 76% off</span>                 
+                   </h6>
+                  <p className="card-text"></p>
+                  <a href="#" className="btn btn-primary bg-dark rounded-3 col-12">Add To Cart</a>
+                </div>
+              </div>
+
+            </div>
+            
+            
+            <div className=" col-lg-3 col-sm-6">
+              <div className="card">
+                <img src={mob4} className="card-img-top" alt="..."/>
+                <button className="btn-second">Clear Calling</button>
+                <div className="card-body">
+                <b className="card-title">Airdopes 115</b>
+                  <h6 className="card-title"><b>₹1,499</b>&nbsp;
+                  <small className="text-body-secondary line-through">₹7,990</small>
+                  <span class="off m-0 pr-2"> 81% off</span>                  
                   </h6>
-                  <p class="card-text"></p>
-                  <a href="#" class="btn btn-primary bg-dark rounded-3 col-12">Add To Cart</a>
+                  <p className="card-text"></p>
+                  <a href="#" className="btn btn-primary bg-dark rounded-3 col-12">Add To Cart</a>
                 </div>
               </div>
 
@@ -119,7 +125,7 @@ export default function Card(props) {
         </div>
         </div>
       </section>
-      </div>  
-    
+    </div>
+
   )
 }
