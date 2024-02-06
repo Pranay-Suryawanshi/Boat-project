@@ -30,7 +30,7 @@ color: #12b985;
 }
 
 .abd{
-    background-image: linear-gradient(#ffffff, #f7edda,#ffffff);
+    background-image: linear-gradient(#ffffff, #fff1d6,#ffffff);
 }
 .pt-4{
     padding-top: 100px!important;
@@ -38,15 +38,25 @@ color: #12b985;
 }
 
 .head{
-background-image: linear-gradient(#ffffff, #f2edff);
+background-image: linear-gradient(#ffffff, #f1f0f4,#ffffff);
 }
+
 .bands{
 font-size: 84 ;
 }
+
 .line-through{
     text-decoration: line-through;
     font-size: 12px;
     color: #b2b9bf;
+}
+
+.headphone{
+    background-image: linear-gradient(#ffffff,#dfeeeb,#ffffff);
+}
+
+.Speakers{
+    background-image: linear-gradient(#ffffff, #e6ecff);
 }
 .btn-second {
     

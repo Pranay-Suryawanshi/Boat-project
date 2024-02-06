@@ -1,36 +1,35 @@
 import React from 'react'
-
-import mob from '../image/mob.webp'
-import mob1 from '../image/mob1.webp'
-import mob2 from '../image/mob2.webp'
-import mob3 from '../image/mob3 webp.webp'
-import mob4 from '../image/mob4.webp'
-export default function Card(props) {
+import party from '../image/party.webp'
+import party1 from '../image/Party1.webp'
+import party2 from '../image/party2.webp'
+import party3 from '../image/party3.webp'
+import party4 from '../image/party4.webp'
+export default function PartySpeakers() {
   return (
     <div>
-      <section className="abd">
-        <div className="container col-ms-6 ">
+        <section className="abd">
+        <div className="container-fluid col-ms-6 ">
           <div className=" d-flex flex-wrap">
 
-            <div className="col-sm-6">
-              <img src={mob} className="img-fluid" />
+            <div className="col-sm-7 col-lg-6">
+              <img src={party} className="img-fluid" />
             </div>
 
-            <div className="col-sm-6 pt-4">
+            <div className="col-sm-5 col-lg-6 pt-4">
               
-              <p className="pt-5 d-flex flex-wrap justify-content-end pt-4">
-              Smart
+              <p className="pt-5 d-flex flex-wrap justify-content-center pt-4">
+              Party
               <span>
-              <strong>Watches</strong>
+              <strong>Speakers</strong>
               </span>
               </p>
-              <p className="d-flex justify-content-end">
+              <p className="d-flex justify-content-center">
                 <h2>
                   Starting from ₹999*
                 </h2>
 
               </p>
-              <span className='d-flex justify-content-end'>
+              <span className='d-flex justify-content-center'>
               <button className="bg-dark text-white py-1 mx-1 col-3 rounded-3"> Shop Products</button>
               </span>
             </div>
@@ -43,15 +42,15 @@ export default function Card(props) {
 
         <div>
           <h3 className="px-5">
-            {props.best}
-            <strong>{props.seller}</strong>
+            Best
+            <strong>Sellers</strong>
           </h3>
 
           <div className="container-fludi mx-5">
           <div className="row">
             <div className="col-lg-3 col-sm-6">
               <div className="card ">
-                <img src={mob1} className="card-img-top" alt="..."/>
+                <img src={party1} className="card-img-top" alt="..."/>
                 <button className="btn-second">Activity Tracker</button>
                 <div className="card-body">
                   <b className="card-title">Storm</b>
@@ -68,7 +67,7 @@ export default function Card(props) {
             
             <div className="col-lg-3 col-sm-6">
               <div className="card">
-                <img src={mob2}className="card-img-top" alt="..."/>
+                <img src={party2}className="card-img-top" alt="..."/>
                 <button className="btn-second">BT Calling</button>
                 <div className="card-body">
                 <b className="card-title">Wave Call</b>
@@ -86,7 +85,7 @@ export default function Card(props) {
             
             <div className="col-lg-3 col-sm-6">
               <div className="card" >
-                <img src={mob3} className="card-img-top" alt="..."/>
+                <img src={party3} className="card-img-top" alt="..."/>
                 <button className="btn-second">Alexa Enabled</button>
                 <div className="card-body">
                 <b className="card-title">Xtend</b>
@@ -104,7 +103,7 @@ export default function Card(props) {
             
             <div className=" col-lg-3 col-sm-6">
               <div className="card">
-                <img src={mob4} className="card-img-top" alt="..."/>
+                <img src={party4} className="card-img-top" alt="..."/>
                 <button className="btn-second">Clear Calling</button>
                 <div className="card-body">
                 <b className="card-title">Airdopes 115</b>
@@ -127,6 +126,5 @@ export default function Card(props) {
         </div>
       </section>
     </div>
-
   )
 }

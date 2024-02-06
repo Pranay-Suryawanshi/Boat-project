@@ -1,23 +1,22 @@
 import React from 'react'
-import headset from '../image/headset.webp'
-import headset1 from '../image/headset1.webp'
-import headset2 from '../image/headset2.webp'
-import headset3 from '../image/headset3.gif'
-import headset4 from '../image/headset4.webp'
+import speakers from '../image/Speakers.webp'
+import speakers1 from '../image/speakers1.webp'
+import speakers2 from '../image/speakers2.webp'
+import speakers3 from '../image/speakers3.webp'
+import speakers4 from '../image/speakers4.webp'
 
-
-export default function () {
+export default function Speakers() {
   return (
     <div>
-         <section className=" head">
-            <div className="container-fluid col-lg-12 ">
-              <div className=" d-flex flex-wrap">
-                <div className="col-sm-6 px-3">
-                  <p className="pt-5">
+        <section className="Speakers">
+            <div className="container-fluid col-lx-6">
+              <div className='row'>
+                <div className="col-sm-6 pt-4 px-5">
+                  <p className="pt-5 d-flex flex-wrap">
+                    Wireless
                   
-                  <br/>
                   <span>
-                  <strong>Neckbands</strong>
+                    <strong>Speakers</strong>
                   </span>
                   </p>
                   <p className="sub_heading">
@@ -28,11 +27,11 @@ export default function () {
                   </p>
                 </div>
 
-                <div className="col-lg-6">
-                <img src={headset} className="img-fluid "/>
+                <div className="col-sm-6">
+                <img src={speakers} className="img-fluid "/>
                </div>
-                
-              </div>
+               </div>
+              
               
 
             </div>
@@ -50,7 +49,7 @@ export default function () {
           <div className="row">
             <div className="col-lg-3 col-sm-6">
               <div className="card ">
-                <img src={headset1} className="card-img-top" alt="..."/>
+                <img src={speakers1} className="card-img-top" alt="..."/>
                 <button className="btn-second">60 Hours Playback</button>
                 <div className="card-body">
                   <b className="card-title">Airdopes 131</b>
@@ -67,7 +66,7 @@ export default function () {
             
             <div className="col-lg-3 col-sm-6">
               <div className="card">
-                <img src={headset2}className="card-img-top" alt="..."/>
+                <img src={speakers2}className="card-img-top" alt="..."/>
                 <button className="btn-second">20 Hours Playback</button>
                 <div className="card-body">
                 <b className="card-title">Airdopes 181</b>
@@ -85,7 +84,7 @@ export default function () {
             
             <div className="col-lg-3 col-sm-6">
               <div className="card" >
-                <img src={headset3} className="card-img-top" alt="..."/>
+                <img src={speakers3} className="card-img-top" alt="..."/>
                 <button className="btn-second">40 Hours Playback</button>
                 <div className="card-body">
                 <b className="card-title">Airdopes 161</b>
@@ -103,7 +102,7 @@ export default function () {
             
             <div className=" col-lg-3 col-sm-6">
               <div className="card">
-                <img src={headset4} className="card-img-top" alt="..."/>
+                <img src={speakers4} className="card-img-top" alt="..."/>
                 <button className="btn-second">Clear Calling</button>
                 <div className="card-body">
                 <b className="card-title">Airdopes 115</b>
@@ -125,7 +124,6 @@ export default function () {
         </div>
         </div>
       </section>
-      
     </div>
   )
 }

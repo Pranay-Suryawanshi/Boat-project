@@ -1,31 +1,30 @@
 import React from 'react'
 
-import mob from '../image/mob.webp'
-import mob1 from '../image/mob1.webp'
-import mob2 from '../image/mob2.webp'
-import mob3 from '../image/mob3 webp.webp'
-import mob4 from '../image/mob4.webp'
-export default function Card(props) {
+import headphone from "../image/headphones.webp"
+import headphone1 from "../image/headset1.webp"
+import headphone2 from "../image/headset2.webp"
+import headphone3 from "../image/headset3.gif"
+import headphone4 from "../image/headset4.webp"
+export default function Headphones() {
   return (
     <div>
-      <section className="abd">
-        <div className="container col-ms-6 ">
+        <section className="headphone">
+        <div className="container-fluid  col-ms-6 ">
           <div className=" d-flex flex-wrap">
 
-            <div className="col-sm-6">
-              <img src={mob} className="img-fluid" />
+            <div className="col-lg-7 px-5">
+              <img src={headphone} className="img-fluid " style={{ height: "600px", width: "700px" }} />
             </div>
 
-            <div className="col-sm-6 pt-4">
-              
+            <div className=" container col-lg-5 pt-4  ">
               <p className="pt-5 d-flex flex-wrap justify-content-end pt-4">
-              Smart
+              
               <span>
-              <strong>Watches</strong>
+              <strong>Headphones</strong>
               </span>
               </p>
-              <p className="d-flex justify-content-end">
-                <h2>
+              <p className="d-flex flex-wrap justify-content-end">
+                <h2 className=''>
                   Starting from ₹999*
                 </h2>
 
@@ -43,15 +42,15 @@ export default function Card(props) {
 
         <div>
           <h3 className="px-5">
-            {props.best}
-            <strong>{props.seller}</strong>
+            Best
+            <strong>Sellers</strong>
           </h3>
 
-          <div className="container-fludi mx-5">
+          <div className="container-fludi  mx-5">
           <div className="row">
             <div className="col-lg-3 col-sm-6">
               <div className="card ">
-                <img src={mob1} className="card-img-top" alt="..."/>
+                <img src={headphone1} className="card-img-top" alt="..."/>
                 <button className="btn-second">Activity Tracker</button>
                 <div className="card-body">
                   <b className="card-title">Storm</b>
@@ -68,7 +67,7 @@ export default function Card(props) {
             
             <div className="col-lg-3 col-sm-6">
               <div className="card">
-                <img src={mob2}className="card-img-top" alt="..."/>
+                <img src={headphone2}className="card-img-top" alt="..."/>
                 <button className="btn-second">BT Calling</button>
                 <div className="card-body">
                 <b className="card-title">Wave Call</b>
@@ -86,7 +85,7 @@ export default function Card(props) {
             
             <div className="col-lg-3 col-sm-6">
               <div className="card" >
-                <img src={mob3} className="card-img-top" alt="..."/>
+                <img src={headphone3} className="card-img-top" alt="..."/>
                 <button className="btn-second">Alexa Enabled</button>
                 <div className="card-body">
                 <b className="card-title">Xtend</b>
@@ -104,7 +103,7 @@ export default function Card(props) {
             
             <div className=" col-lg-3 col-sm-6">
               <div className="card">
-                <img src={mob4} className="card-img-top" alt="..."/>
+                <img src={headphone4} className="card-img-top" alt="..."/>
                 <button className="btn-second">Clear Calling</button>
                 <div className="card-body">
                 <b className="card-title">Airdopes 115</b>
@@ -127,6 +126,5 @@ export default function Card(props) {
         </div>
       </section>
     </div>
-
   )
 }
